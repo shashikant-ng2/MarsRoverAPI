@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MarsRoverApi</name>
+    </assembly>
+    <members>
+        <member name="M:MarsRoverApi.Controllers.RoverController.Post(MarsRoverApi.Models.RoverModel)">
+            <summary>
+            Create new instance of Rover
+            </summary>
+        </member>
+        <member name="M:MarsRoverApi.Controllers.RoverController.Put(System.Int32,MarsRoverApi.Models.RoverModel)">
+            <summary>
+            Rename and existing instance of Rover
+            </summary>
+        </member>
+        <member name="M:MarsRoverApi.Controllers.RoverController.Move(System.Int32,MarsRoverApi.Models.RoverMoveModel)">
+            <summary>
+            Move Rover as per instruction
+            </summary>
+        </member>
+        <member name="M:MarsRoverApi.Controllers.RoverController.GetPosition(System.Int32)">
+            <summary>
+            Get current postion of Rover
+            </summary>
+            <param name="roverId"></param>
+            <returns></returns>
+        </member>
+        <member name="F:MarsRoverApi.Enums.Direction.N">
+            <summary>
+            North
+            </summary>
+        </member>
+        <member name="F:MarsRoverApi.Enums.Direction.E">
+            <summary>
+            East
+            </summary>
+        </member>
+        <member name="F:MarsRoverApi.Enums.Direction.S">
+            <summary>
+            South
+            </summary>
+        </member>
+        <member name="F:MarsRoverApi.Enums.Direction.W">
+            <summary>
+            West
+            </summary>
+        </member>
+    </members>
+</doc>
